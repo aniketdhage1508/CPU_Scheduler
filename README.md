@@ -1,39 +1,29 @@
-#CPU Scheduling Algorithms GUI
-This project implements a graphical user interface (GUI) for simulating three popular CPU scheduling algorithms: FCFS, SJF, and Round Robin. It is built using Java Swing and allows users to input burst times, the number of processes, and select an algorithm to view the scheduling results.
+# CPU Scheduling Algorithms GUI
 
-Features
-FCFS (First-Come, First-Served) scheduling algorithm.
-SJF (Shortest Job First) scheduling algorithm.
-Round Robin scheduling algorithm with customizable quantum time.
-Displays waiting time and turnaround time for each process.
-Calculates and displays the average waiting time and average turnaround time.
-Technologies Used
-Java Swing for the GUI.
-Java for core logic implementation.
-Basic data structures (arrays) to handle the processes and burst times.
+## Overview
+This project simulates and visualizes **three popular CPU scheduling algorithms** using a graphical user interface (GUI). It allows users to input burst times, the number of processes, and select the desired algorithm to view the scheduling results. Built with **Java Swing**, this project provides an interactive and user-friendly experience for understanding CPU scheduling.
 
-How to Run
-Clone the repository:
+## Features
+- **FCFS (First-Come, First-Served)** scheduling algorithm
+- **SJF (Shortest Job First)** scheduling algorithm
+- **Round Robin** scheduling algorithm with customizable quantum time
+- Displays **waiting time** and **turnaround time** for each process
+- Calculates and displays the **average waiting time** and **average turnaround time**
 
-git clone https://github.com/your-username/CPU-Scheduling-Algorithms.git
+## Technologies Used
+- **Java Swing** for GUI development
+- **Java** for core logic implementation
+- **Basic data structures (arrays)** to handle the processes and burst times
 
-Navigate to the project folder:
+## How to Run
 
-cd CPU-Scheduling-Algorithms
-Compile and run the Java program:
-
-Open a terminal or command prompt.
-
-Navigate to the folder containing the project files (where the .java files are located).
-
-Use the following commands to compile and run the program:
-
-javac CPUSchedulingGUI.java FCFS.java SJF.java RoundRobin.java
-java CPUSchedulingGUI
-Input values in the GUI:
-
-Enter the number of processes.
-Enter the burst times as space-separated values.
-Select a scheduling algorithm from the dropdown.
-Click Run Scheduling to see the results.
-
+1. **Clone the repository**  
+   Run the following command to clone the project:
+   git clone https://github.com/your-username/CPU-Scheduling-Algorithms.git
+2. **Navigate to the project folder**
+    Change the directory to the project folder:
+    cd CPU-Scheduling-Algorithms
+3. **Compile and run the Java program**
+    Open a terminal or command prompt and navigate to the folder containing the .java files. Then compile and run the program with the following commands:
+    javac CPUSchedulingGUI.java FCFS.java SJF.java RoundRobin.java
+    java CPUSchedulingGUI
