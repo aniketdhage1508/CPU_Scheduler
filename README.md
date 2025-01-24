@@ -1,4 +1,4 @@
-# CPU Scheduling Algorithms GUI
+# CPU Scheduling Algorithms 
 
 ## Overview
 This project simulates and visualizes **three popular CPU scheduling algorithms** using a graphical user interface (GUI). It allows users to input burst times, the number of processes, and select the desired algorithm to view the scheduling results. Built with **Java Swing**, this project provides an interactive and user-friendly experience for understanding CPU scheduling.
