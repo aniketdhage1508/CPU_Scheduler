@@ -18,12 +18,12 @@ This project simulates and visualizes **three popular CPU scheduling algorithms*
 ## How to Run
 
 1. **Clone the repository**  
-   -Run the following command to clone the project:
-   -git clone https://github.com/your-username/CPU-Scheduling-Algorithms.git
+- Run the following command to clone the project:
+- git clone https://github.com/your-username/CPU-Scheduling-Algorithms.git
 2. **Navigate to the project folder**
-    -Change the directory to the project folder:
-    -cd CPU-Scheduling-Algorithms
+- Change the directory to the project folder:
+- cd CPU-Scheduling-Algorithms
 3. **Compile and run the Java program**
-    -Open a terminal or command prompt and navigate to the folder containing the .java files. Then compile and run the program with the following commands:
-    -javac CPUSchedulingGUI.java FCFS.java SJF.java RoundRobin.java
-    -java CPUSchedulingGUI
+- Open a terminal or command prompt and navigate to the folder containing the .java files. Then compile and run the program with the following commands:
+- javac CPUSchedulingGUI.java FCFS.java SJF.java RoundRobin.java
+- java CPUSchedulingGUI
